@@ -1,21 +1,6 @@
 <?= $this->extend('layout/template'); ?>
 
 <?= $this->section('content'); ?>
-<style>
-    .carousel-inner img {
-        max-height: 480px;
-        /* atur sesuai kebutuhan */
-        object-fit: cover;
-        /* agar gambar tetap proporsional */
-    }
-
-    .text-stroke {
-        -webkit-text-stroke: 1px black;
-        /* For WebKit browsers (Chrome, Safari) */
-        color: white;
-        /* Color of the text inside the stroke */
-    }
-</style>
 
 
 <div id="carouselExampleCaptions" class="carousel slide">
