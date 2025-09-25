@@ -11,4 +11,12 @@ class Pages extends BaseController
         ];
         return view('pages/home', $data);
     }
+
+    public function login(): string
+    {
+        $data = [
+            'title' => 'User Login'
+        ];
+        return view('pages/formlogin', $data);
+    }
 }

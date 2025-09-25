@@ -5,12 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title><?= $title; ?></title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body px-5" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand text-success">ComicStore</a>
+            <a class="navbar-brand text-success">ComicInspicio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,13 +22,18 @@
                         <a class="nav-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Comic Lists</a>
+                        <a class="nav-link" href="#">My Comic Lists</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
+                <ul class="navbar-nav ms-5">
+                    <li class="nav-item">
+                        <a href="/pages/login" class="btn btn-outline-warning">Login</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>

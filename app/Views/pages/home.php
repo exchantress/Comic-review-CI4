@@ -36,14 +36,14 @@
             <img src="/JL.jpeg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="fw-bold text-stroke fs-1">Justice League new series</h5>
-                <p class="fw-semibold fs-5">The limited edition Justice League now ready!!.</p>
+                <p class="fw-semibold fs-5">The limited edition Justice League are out</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="/covercomic.jpeg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5 class="fw-bold text-stroke fs-1">All comic are here</h5>
-                <p class="fw-semibold fs-5">Marvel, DC, and others</p>
+                <p class="fw-semibold fs-5">Marvel, DC, and others, GO RATE AND REVIEW</p>
             </div>
         </div>
     </div>
