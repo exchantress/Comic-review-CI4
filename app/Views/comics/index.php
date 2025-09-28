@@ -15,7 +15,7 @@
                     <h5 class="card-title"><?= $k['judul']; ?></h5>
                     <p class="card-text fs-5 pt-2">Author : <?= $k['author']; ?></p>
                     <p class="card-text fs-5">Publisher : <?= $k['publisher']; ?></p>
-                    <a href="#" class="btn btn-primary">Details</a>
+                    <a href="/comiclist/<?= $k['id']; ?>" class="btn btn-primary">Details</a>
                 </div>
             </div>
         <?php endforeach; ?>

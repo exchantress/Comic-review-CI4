@@ -11,6 +11,7 @@ class Comics extends BaseController
     {
         $this->comicsModel = new ComicsModel();
     }
+
     public function index(): string
     {
         $comicsModel = $this->comicsModel->findAll();
@@ -20,5 +21,18 @@ class Comics extends BaseController
         ];
 
         return view('comics/index', $data);
+    }
+
+    public function detail($id)
+    {
+        $comics = $this->comicsModel->where(['id' => $id])->first();
+        $data = [
+            'title' => 'Comic Detail',
+            'comics' => $comics
+        ];
+        if (empty($data['comics'])) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Comic with ID ' . $id . ' not found.');
+        }
+        return view('comics/details', $data);
     }
 }
