@@ -42,10 +42,10 @@ class Comics extends BaseController
         return view('comics/details', $data);
     }
 
-    public function edit($id)
-    {
-        $review = $this->reviewModel->find($id);
-        session()->setFlashdata('editing', $review);
-        return redirect()->to('comiclist/' . $review['comic_id']);
-    }
+    // public function edit($id)
+    // {
+    //     $review = $this->reviewModel->find($id);
+    //     session()->setFlashdata('editing', $review);
+    //     return redirect()->to('comiclist/' . $review['comic_id']);
+    // }
 }

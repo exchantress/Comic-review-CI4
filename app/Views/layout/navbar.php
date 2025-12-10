@@ -23,19 +23,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/comiclist">Comic Lists</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">My Comics</a>
-                    </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
-                <ul class="navbar-nav ms-5">
+                <!-- <ul class="navbar-nav ms-5">
                     <li class="nav-item">
                         <a href="/pages/login" class="btn btn-outline-warning">Login</a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </nav>

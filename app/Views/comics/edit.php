@@ -58,10 +58,6 @@
                             <form action="/comiclist/<?= $review['id']; ?>" method="post">
                                 <?= csrf_field(); ?>
                                 <input type="hidden" name="_method" value="DELETE">
-                                <div class="position-absolute end-0 m-2 d-flex flex-column gap-2">
-                                    <a href="/comiclist/edit/<?= $review['id']; ?>" class="btn btn-warning">Update</a>
-                                    <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')">Delete</button>
-                                </div>
                             </form>
                             <h5 class="card-title">RATING: <?= $review['rating']; ?></h5>
                             <p class="card-text"><?= $review['review_text']; ?></p>

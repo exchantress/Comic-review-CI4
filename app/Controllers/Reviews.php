@@ -39,14 +39,13 @@ class Reviews extends BaseController
         $review = $this->reviewModel->find($id);
 
         $this->reviewModel->delete($id);
-        $comicId = $review['comic_id']; // ID komik
+        $comicId = $review['comic_id']; //ID 
         session()->setFlashdata('pesan', 'Review berhasil dihapus.');
         return redirect()->to('comiclist/' . $comicId);
     }
 
     public function edit($id)
     {
-        // Menampilkan form edit untuk ulasan tertentu
         $review = $this->reviewModel->find($id);
         $comics = $this->comicsModel->find($review['comic_id']);
 
