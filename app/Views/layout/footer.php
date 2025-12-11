@@ -7,9 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column min-vh-100 absolute-bottom">
     <footer class="bg-light text-center text-lg-start mt-auto">
-        <div class="text-center p-3" style="background-color: rgba(0,0,0,0.2);">
+        <div class="text-center p-3 bg-dark text-white ">
             ©2025 Copyright: ComicTore | All Right Reserved To Exchantress
         </div>
     </footer>

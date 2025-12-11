@@ -41,6 +41,10 @@
                     <div class="mt-3">
                         <label for="range2" class="form-label">Rate (0-5): </label>
                         <input type="range" class="form-range" min="0" max="5" id="range2" name="rating">
+                        <select name="" id="">
+                            <option value="Yes">Yes</option>
+                            <option value="No" selected>NO</option>
+                        </select>
                         <div class="col-12 pt-3">
                             <button type="submit" class="btn btn-success">Submit</button>
                         </div>

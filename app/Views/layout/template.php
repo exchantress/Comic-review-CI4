@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body class="bg-success bg-gradient bg-opacity-75">
     <?= $this->include('layout/navbar'); ?>
     <?= $this->renderSection('content'); ?>
     <?= $this->include('layout/footer'); ?>
